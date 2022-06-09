@@ -60,8 +60,8 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Cupid Low Sneaker';
 const CONTRACT_SYMBOL = 'CLS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x2e8a32d2333ca72831516cf35b4fe833fd440ab9';
-const TREASURY_ADDRESS = '0x2e8a32d2333ca72831516cf35b4fe833fd440ab9';
+const OWNER_ADDRESS = '0x9E1ED32221e540e8Ce5522CE163A27FeFeB3AeA1';
+const TREASURY_ADDRESS = '0x9E1ED32221e540e8Ce5522CE163A27FeFeB3AeA1';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -72,7 +72,7 @@ const PUBLIC_MINT_START_DATE = "2022-06-09T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-06-09T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 100; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x2e8a32d2333ca72831516cf35b4fe833fd440ab9"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x9E1ED32221e540e8Ce5522CE163A27FeFeB3AeA1"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
